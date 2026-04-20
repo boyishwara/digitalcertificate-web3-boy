@@ -1,5 +1,3 @@
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/31264d71-5352-440b-b350-459370073a3f" /># Digital Certificate Registry MVP
-
 **Digital Certificate Registry** - A Web3 Application for Issuing and Verifying Student Credentials on the Stellar Blockchain.
 
 ## Project Description
