@@ -17,46 +17,19 @@ Instead of relying on centralized databases that can be altered or lost, this sm
 - **Testnet Contract ID**: `CBI3FDRAS7HCF6DWUYMTLELFWQKQAHV4SLCOLQYZNXQDSZSMJVK57T23`
 - **Network**: Stellar Testnet
 
-### Demo Screenshot
+### Screenshot
 ![alt text](screenshot.png)
 
 ---
 
-## Guide: Building and Deploying to Stellar Testnet
-
-As part of the `digitalcertificate-web3-boy` setup, follow these steps to build the WebAssembly (WASM) file using Soroban Studio, and deploy it to the Stellar Testnet using Stellar Laboratory and Freighter.
-
-### Step 1: Install Prerequisites
-
-1. Ensure you have **Rust** installed (`rustup`).
-2. Add the `wasm32-unknown-unknown` target:
-   ```bash
-   rustup target add wasm32-unknown-unknown
-   ```
-3. Install **Soroban CLI** or use **Soroban Studio** extension in your IDE.
-
-### Step 2: Build the Contract
-
-**Option A: Using Soroban Studio (VSCode Extension)**
-1. Open the Soroban Studio extension panel in your editor.
-2. Find the `certificate_registry` contract and click **Build**.
-3. The WASM file will be generated in `target/wasm32-unknown-unknown/release/certificate_registry.wasm`.
-
-**Option B: Using Command Line**
-1. Open your terminal in the project root.
-2. Run the build command:
-   ```bash
-   cargo build --target wasm32-unknown-unknown --release
-   ```
-
-### Step 3: Set Up Freighter Wallet
+### Set Up Freighter Wallet
 
 1. Install the [Freighter Wallet](https://www.freighter.app/) browser extension.
 2. Open Freighter, create or restore a wallet.
 3. Go to `Settings` (the gear icon) > `Preferences` > enable **Testnet** mode.
 4. Fund your testnet account by using the [Stellar Laboratory Friendbot](https://laboratory.stellar.org/#account-creator?network=test). Simply paste your public key to get free test XLM.
 
-### Step 4: Deploy using Stellar Laboratory
+### Deploy using Stellar Laboratory
 
 1. Go to [Stellar Laboratory](https://laboratory.stellar.org/).
 2. On the top right, ensure the network is set to **Testnet**.
@@ -66,7 +39,7 @@ As part of the `digitalcertificate-web3-boy` setup, follow these steps to build 
 6. Click **Upload to Network**. Verify and sign the transaction with your Freighter wallet.
 7. Wait for the transaction to succeed. The Laboratory will display your **Contract ID**.
 
-### Step 5: Interact with the Smart Contract
+### Interact with the Smart Contract
 
 Once deployed, you can use the **Interact** section in Stellar Laboratory:
 1. Copy the **Contract ID** you received.
