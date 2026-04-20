@@ -1,4 +1,4 @@
-# Digital Certificate Registry MVP
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/31264d71-5352-440b-b350-459370073a3f" /># Digital Certificate Registry MVP
 
 **Digital Certificate Registry** - A Web3 Application for Issuing and Verifying Student Credentials on the Stellar Blockchain.
 
@@ -16,7 +16,7 @@ Instead of relying on centralized databases that can be altered or lost, this sm
 
 ## Contract Details
 
-- **Testnet Contract ID**: `(TBD - Please replace after deploying, e.g., CCXXXX...)`
+- **Testnet Contract ID**: `CBI3FDRAS7HCF6DWUYMTLELFWQKQAHV4SLCOLQYZNXQDSZSMJVK57T23`
 - **Network**: Stellar Testnet
 
 ### Demo Screenshot
