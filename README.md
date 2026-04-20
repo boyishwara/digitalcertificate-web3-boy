@@ -18,7 +18,6 @@ Instead of relying on centralized databases that can be altered or lost, this sm
 - **Network**: Stellar Testnet
 
 ### Demo Screenshot
-*(Please place a screenshot of your Stellar Laboratory invocation result here and name it `screenshot.png`)*
 ![alt text](screenshot.png)
 
 ---
