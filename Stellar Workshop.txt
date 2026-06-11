@@ -1,0 +1,79 @@
+S t r u k t u r  P r o j e k
+Folder contract berisi kode smart
+contract (backend)
+Folder frontend berisi kode tampilan
+aplikasi (frontend)
+Folder target berisi hasil build dari
+smartcontract
+C o n t r a c t
+S t r u c t
+Struct adalah tipe data yang digunakan untuk menyimpan
+beberapa data dalam satu objek
+Digunakan untuk mempresentasikan suatu objek
+Setiap data di dalam struct disebut field
+Di smart contract, struct sering digunakan untuk
+merepresentasikan data seperti user, note, mahasiwa dll.
+S t r u c t
+C o n t r a c t  f u n c t i o n
+F unction adalah fi tur di dalam smar t contr act
+untuk menjalankan suatu aksi
+User memanggil function untuk ber int er aksi
+dengan contr act
+F unction bisa digunakan untuk mengambil at au
+mengub ah dat a
+C o n t r a c t  f u n c t i o n
+S t o r a g e
+Storage digunakan untuk menyimpan data contract di
+dalam blockchain
+Data disimpan dalam bentuk key-value dan diakses
+melalui env.storage()
+Tipe storage ada 2, ada get dan set.
+Get artinya untuk mengambil data
+Set artinya untuk menyimpan data
+S t o r a g e
+K e y :  “ N O T E _ D A T A ˮ
+[
+   { t i t l e :  “ b e l a j a r  r u s t ˮ ,  d i b u a t :  “ 2 0 2 3 ˮ  } ,
+   { t i t l e :  “ m e m a h a m i  s t e l l a r ˮ ,  d i b u a t :  “ 2 0 2 4 ˮ } ,
+]
+V a l u e :
+a r r a y
+N o t e  1
+N o t e  2
+. . .
+S t o r a g e
+1.Buat key
+2.Akses ke storage
+C r e a t e ,  R e a d ,  D e l e t e
+D e p l o y  t o  T e s t n e t
+Testnet adalah jaringan blockchain untuk testing tanpa
+menggunakan uang asli
+Digunakan untuk mencoba deploy dan menjalankan smart
+contract secara testing
+Semua aset di testnet tidak memiliki nilai nyata (hanya untuk
+simulasi)
+Untuk melakukan deploy, diharuskan untuk memiliki akun
+wallet dan memiliki token didalamnya
+W a l l e t
+Digunakan untuk login dan berinteraksi dengan aplikasi Web3
+Setiap wallet memiliki address sebagai identitas di blockchain
+di Stellar ada 2 cara untuk
+membuat wallet,
+menggunakan terminal dan
+menggunakan aplikasi
+freighter wallet extension di
+browser
+D e p l o y  t o  t e s t n e t
+1.Membuat wallet
+2.Build Smart Contract
+3.Deploy 
+M e m a n g g i l  s m a r t  c o n t r a c t
+S u b m i s s i o n
+Submission dikumpulkan sebelum workshop berakhir
+Gunakan bantuan AI untuk membantu pengerjaan
+Aplikasi harus berbeda dari contoh yang dibuat saat workshop (boleh
+modifikasi sederhana)
+Sertakan README yang jelas (deskripsi aplikasi, fitur, ID
+smartcontract testnet, screenshot tampilan testnet, bahasa inggris)
+Nama github harus sesuai dengan konteks aplikasi
+Submission bersifat wajib untuk mendapatkan sertifikat
